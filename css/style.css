@@ -25,9 +25,4 @@ body{
     display: block;
 }
 /* Page-container-end */
-/* Responsive */
-@media screen and (min-width:700px) {
-    .page-container{
-        height: 80vh;
-    } 
-}
+
