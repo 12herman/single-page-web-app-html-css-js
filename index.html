@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page web app</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+</head>
+<body>
+    <!-- start -->
+    <section>
+        <!-- nav-link-section-start -->
+         <!-- nav-desktop-start -->
+        <section class="destktop-nav">
+            <ul class="nav-links">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#product">Product</a></li>
+            </ul>
+        </section>
+         <!-- nav-desktop-end -->
+        <!-- nav-mobile -->
+         <section class="mobile-nav">
+            <button class="nav-btn" onclick="NavClick()">
+                <span class="line"></span>
+                <span class="line "></span>
+                <span class="line"></span>
+            </button>
+        </section>
+        <!-- nav-mobile-end -->
+        <!-- Full-screen-pop-up-page-start -->
+        <section class="full-screen-nav-pop-up">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#product">Product</a></li>
+            </ul>
+        </section>
+        <!-- Full-screen-pop-up-page-end -->
+        <!-- nav-link-section-end-->
+        <!-- pages-section-start -->
+        <section>
+            <div class="page-container">
+                <!-- Home-page -->
+                <div class="page page-active" id="home">
+                    <h2>This is Home Page</h2>
+                    <p>welcome</p>
+                </div>
+                <!-- About-page -->
+                <div class="page" id="about">
+                    <h2>This is About Page</h2>
+                    <p>Hi...</p>
+                </div>
+                <!-- Product-page -->
+                <div class="page" id="product">
+                    <h2>This is Product Page</h2>
+                    <p>Thank you</p>
+                </div>
+                <!-- Contact-page -->
+                <div class="page" id="contact">
+                    <h2>This is Contact Page</h2>
+                    <p>Nice to meet you</p>
+                </div>
+            </div>
+        </section>
+        <!-- pages-section-end -->
+    </section>
+    <!-- end -->
+</body>
+<script src="./script.js"></script>
+
+</html>
