@@ -124,7 +124,7 @@
     .full-screen-nav-pop-up{
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         background-color:#33ff33;
         clip-path: circle(25px at calc(100% - 45px ) 45px);
         display: flex;
